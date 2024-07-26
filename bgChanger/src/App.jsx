@@ -9,7 +9,8 @@ const App = () => {
 
   return (
     <>
-      <div className='w-full duration-200 h-screen' style={{backgroundColor: bgColor }}>
+      <div className=' w-full duration-200 h-screen' style={{backgroundColor: bgColor }}>
+        <h2 className='text-center text-3xl font-serif font-bold uppercase'>Color Scheme Changer</h2>
         <div className='fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2'>
           <div className='flex flex-wrap justify-center gap-3 shadow-lg bg-white rounded-md px-3 py-2'>
             <button onClick={()=>setBgColor("red")} className='outline-none px-4 rounded-md shadow-lg' style={{backgroundColor : "red"}}>Red</button>
